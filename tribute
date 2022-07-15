@@ -7,22 +7,22 @@
     <title>Tribute page</title>
     <style>
         /* CSS selector */
-        body {
-            color: black;
+        .heading {
+            text-align: center;
+            background-color: rgb(123, 238, 238);
         }
-        div {
-            background-color: aqua;
+        .achieve {
+            background-color: rgb(226, 184, 106);
+            text-align: center;
         }
-        footer {
-            background-color: grey;
-        }
-        main {
-            background-color: rgb(219, 166, 67);
+        .footer {
+            background-color: rgb(182, 140, 223);
+            text-align: center;
         }
     </style>
 </head>
 <body>
-    <div>
+    <div class = "heading">
         <h1>Dr. Norman Borlaug</h1>
         <h4>The man who saved a millions of live</h4>
         <figure>
@@ -30,9 +30,9 @@
             <figcaption> <em>Dr Norman Borlaug, third from the left, trains biologists in Mexico on how to increase wheat yields - part of his life-long war on hunger</em> </figcaption>
         </figure>
     </div>
-    <main>
+    <main class="achieve" >
         <h4>Here is a time line of Dr Borlaug's life:</h4>
-        <ul>
+        <ul class="list">
             <li><strong>1914</strong> - Born in Cresco, Iowa</li>
             <li><strong>1933</strong> - Leaves his family's farm to attend the University of <br> Minnesota, thanks to a Depression era program known as the "National Youth <br> Administration"</li>
             <li><strong>1935</strong> - Has to stop school and save up more money. Works in the <br> Civilian Conservation Corps, helping starving Americans. "I saw how food changed <br> them", he said. "All of this left scars on me." </li>
@@ -51,8 +51,8 @@
             <li><strong>2009</strong> - Dies at the age of 95.</li>
         </ul>
     </main>
-    <footer>
-        <b>If you have time, you should read more about this incredible human being on his </b>Wikipedia entry
+    <footer class="footer" >
+        <b>If you have time, you should read more about this incredible human being on his </b> Wikipedia entry
     </footer>
 </body>
 </html>
