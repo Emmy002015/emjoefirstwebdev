@@ -19,13 +19,16 @@
             background-color: rgb(182, 140, 223);
             text-align: center;
         }
+        .image img {
+            width: 100% ;
+        }
     </style>
 </head>
 <body>
     <div class = "heading">
         <h1>Dr. Norman Borlaug</h1>
         <h4>The man who saved a millions of live</h4>
-        <figure>
+        <figure class="image">
             <img src="tribute-page.jpg" alt="Dr Norman"> 
             <figcaption> <em>Dr Norman Borlaug, third from the left, trains biologists in Mexico on how to increase wheat yields - part of his life-long war on hunger</em> </figcaption>
         </figure>
